@@ -3,40 +3,257 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title - Resin8 Resilient Coating Solutions</title>
+    <meta name="keywords" content="Resin8 Epoxy Resin Commercial Coating" />
+    <meta name="description" content="Resin8. Highly Resilient Epoxy Coating. Low VOC. ASTM testing. 1-hour fast cure. Water cleanable. 25 year performance legacy for Commercial CIPP Resin8 Commercial products. " />
+    <meta name="author" content="tosca ragnini" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link  href='http://fonts.googleapis.com/css?family=Arimo:300,400,700,400italic,700italic'rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+    <link href='~/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/hover-dropdown-menu.css" rel="stylesheet" />
+    <link href="~/css/revolution-slider.css" rel="stylesheet" />
+    <link href="~/rs-plugin/css/settings.css" rel="stylesheet" />
+    <link href="~/css/animate.min.css" rel="stylesheet" />
+    <link href="~/css/owl/owl.carousel.css" rel="stylesheet" />
+    <link href="~/css/owl/owl.theme.css" rel="stylesheet" />
+    <link href="~/css/owl/owl.transitions.css" rel="stylesheet" />
+    <link href="~/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <link href="~/css/color.css" rel="stylesheet" />
+   <!-Styles.Render("~/Content/css")
+    Scripts.Render("~/bundles/modernizr")-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+    <div id="page">
+        <!-- Page Loader--> 
+        <div id="pageloader">
+            <div class="loader-item fa fa-spin text-color"></div>
+        </div>
+        <div id="top-bar" class="top-bar-section top-bar-bg-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- Top Contact -->
+                <div class="top-contact link-hover-black right">
+                    <a href="#">
+                        <i class="fa fa-phone"></i>+1 773 000 0000
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-envelope"></i>info@resin-8.com
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+</div>
+        <header id="sticker" class="sticky-navigation">
+            <!-- Sticky Menu -->
+            <div class="sticky-menu relative">
+                <!-- navbar -->
+                <div id="navigation" class="navbar navbar-default navbar-bg-light" role="navigation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="navbar-header">
+                                    <!-- Button For Responsive toggle -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <!-- Logo -->
+                                    <a class="navbar-brand" href="index.html"><img class="site_logo" alt="Site Logo" src="../img/resin8/resin8-logo-01a.png"></a>
+                                </div>
+                                <!-- Navbar Collapse -->
+                                <div id="topnav" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li> <a href="#home" class="scroll">Home</a></li>
+                                        <li><a href="#about-us" class="scroll">About</a>
+                                        <li><a href="#benefits" class="scroll">Benefits</a></li>
+                                        <li><a href="#markets" class="scroll">Markets</a></li>
+                                        <li><a href="#products" class="scroll">Products</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Crack Filler</a></li>
+                                                <li><a href="#">Floors</a></li>
+                                                <li><a href="#">Heavy Duty Floors</a></li>
+                                                <li><a href="#">Manholes</a></li>
+                                                <li><a href="#">Pipe Liners</a></li>
+                                                <li><a href="#">Walls & Floors</a></li>
+                                                <li><a href="#">Sealers</a></li>
+                                                <li><a href="#">Grout</a></li>
+                                            </ul>
+                                         </li>  
+                                        <li><a href="#downloads" class="scroll">Downloads</a> </li>                                     
+                                        <li><a href="#contact-us" class="scroll">Contact us</a></li>
+                                     </ul>
+                                    <div class="bg-white hide-show-content no-display header-contact-content">
+                                        <p class="vertically-absolute-middle">
+                                            Call Us <strong>+1 773.000.0000</strong>
+                                        </p>
+                                    </div>
+                                    <!-- Header Contact Content -->
+                                    <!-- Header Search Content -->
+                                    <div class="bg-white hide-show-content no-display header-search-content">
+                                        <form role="search" class="navbar-form vertically-absolute-middle">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Enter your text &amp; Search Here" class="form-control" id="s" name="s" value="" />
+                                            </div>
+                                        </form>
+                                        <button class="close">
+                                            <i class="fa fa-times"></i>
+                                        </button>
+                                    </div>
+                                    <!-- Header Search Content -->
+                                   
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.col-md-12 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </div><!-- navbar -->
+            </div><!-- Sticky Menu -->
+        </header>
+ 
+        <section id="slider" class="top-pad-80 bottom-pad-80">
+            
+            <div class="image-bg content-in fixed" data-background="../img/sections/bg/grey-floor.jpg" data-stellar-background-ratio="2">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../img/resin8/res-coat-01.png" alt="" height="350" width="520" />
+                    </div>
+                    <div class="col-md-8 top-pad-80">
+                        <h1 class="upper top-padding-120 black">Resin8 Resilient Coating </h1>
+                        <h3 class="white">Enlongated for Heavy Elements thru Decades of Wear</h3>
+                        <p class="description medium white">TESTED HIGHLY RESILIENT - GREAT ADHESION TO ALL SUBSTRATES<br /> 
+                        WATER BASED OPTIONS - SAFE (LOW VOC) <br /> 30 YEAR PERFORMANCE LEGACY</p>
+                        <p class="description medium white">Reliably the best durable elongation coating - Self Priming</p>
+                        <p class="top-pad-30">
+                        <a href="#about-us" class="btn btn-default big">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+ 
+                 @RenderBody()
+                
+         <hr />
+       
+            <footer id="footer">
+                <div class="footer-widget">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 widget bottom-xs-pad-20">
+                                <div class="widget-title">
+                                    <!-- Title -->
+                                    <h3 class="title">About Us</h3>
+                                </div>
+                                <!-- Text -->
+                                <p>We are Resin8</p>
+                                <!-- Address -->
+                                <p>Chicago, Illinois, USA
+                                </p>
+                                <!-- Phone -->
+                                <p>
+                                    <strong>Call Us:</strong> +1 (773) 000 0000
+                                </p> 
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 widget">
+                                <div class="widget-title">
+                                    <!-- Title -->
+                                    <h3 class="title">Latest News</h3>
+                                </div>
+                                <nav>
+                                    <ul class="footer-blog">
+                                        <!-- List Items -->
+                                        <li>
+                                            <a href="#">words on latest news</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 widget">
+                                <div class="widget-title">
+                                    <!-- Title -->
+                                    <h3 class="title">Send a Message</h3>
+                                </div>
+                                <p class="form-message" style="display: none;"></p>
+                                <div class="contact-form">
+                                    <form role="form" name="contactform" id="contactform" method="post" action="php/contact-form.php">
+                                        <!-- Field 1 -->
+                                        <div class="input-text form-group">
+                                            <input type="text" name="contact_name" class="input-name form-control" placeholder="Full Name" />
+                                        </div>
+                                        <!-- Field 2 -->
+                                        <div class="input-email form-group">
+                                            <input type="email" name="contact_email" class="input-email form-control" placeholder="Email" />
+                                        </div>
+                                        <!-- Field 4 -->
+                                        <div class="textarea-message form-group">
+                                            <textarea name="contact_message" class="textarea-message form-control" placeholder="Message" rows="3"></textarea>
+                                        </div>
+                                        <!-- Button -->
+                                        <button class="btn btn-default" type="submit">
+                                            Send Now
+                                            <i class="icon-paper-plane"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-top -->
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Copyrights -->
+                            <div class="col-xs-10 col-sm-6 col-md-6">
+                                &copy; @DateTime.Now.Year - Resin8 - Resilient Coatings Solutions.
+                                <br />
+                                <!-- Terms Link -->
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+                            </div>
+                            <div class="col-xs-2  col-sm-6 col-md-6 text-right page-scroll gray-bg icons-circle i-3x">
+                                <!-- Goto Top -->
+                                <a href="#page">
+                                    <i class="glyphicon glyphicon-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-bottom -->
+            </footer>
+
+                       
+        <script type="text/javascript" src="~/js/jquery.min.js"></script>
+        <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/js/hover-dropdown-menu.js"></script>
+        <script type="text/javascript" src="~/js/jquery.hover-dropdown-menu-addon.js"></script>
+        <script type="text/javascript" src="~/js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="~/js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="~/js/bootstrapValidator.min.js"></script>
+        <script type="text/javascript" src="~/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="~/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="~/js/revolution-custom.js"></script>
+        <script type="text/javascript" src="~/js/jquery.mixitup.min.js"></script>
+        <script type="text/javascript" src="~/js/jquery.appear.js"></script>
+        <script type="text/javascript" src="~/js/effect.js"></script>
+        <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="~/js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="~/js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="~/js/custom.js"></script>
+                    <!--   Scripts.Render("~/bundles/jquery") Scripts.Render("~/bundles/bootstrap")--> 
+             @RenderSection("scripts", required: false)
+        </div>
 </body>
 </html>
