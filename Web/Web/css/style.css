@@ -4773,7 +4773,7 @@ ul.tags li{
     text-align: center;
     text-transform: uppercase;
     width: 100%;
-}
+
 .grid-item:hover img{
 	opacity:0.5;
 }
@@ -5838,6 +5838,9 @@ ul.tags li{
 }
 .top-margin-80{
 	margin-top:80px;
+}
+.top-margin-120{
+	margin-top:120px;
 }
 /* Bottom Padding */
 .bottom-pad-0{

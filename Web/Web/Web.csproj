@@ -213,6 +213,14 @@
     <Content Include="img\prettyPhoto\light_square\default_thumbnail.gif" />
     <Content Include="img\prettyPhoto\light_square\loader.gif" />
     <Content Include="img\prettyPhoto\light_square\sprite.png" />
+    <Content Include="img\resin8\crack.jpg" />
+    <Content Include="img\resin8\grey_floor.jpg" />
+    <Content Include="img\resin8\manhole.jpg" />
+    <Content Include="img\resin8\outdoor.jpg" />
+    <Content Include="img\resin8\pipe.jpg" />
+    <Content Include="img\resin8\roof.jpg" />
+    <Content Include="img\resin8\school.jpg" />
+    <Content Include="img\resin8\school_floor.jpg" />
     <Content Include="img\sections\bg\grey-floor.jpg" />
     <Content Include="img\resin8\res-coat-01.png" />
     <Content Include="img\resin8\res-logo-01.png" />
