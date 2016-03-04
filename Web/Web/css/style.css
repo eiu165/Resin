@@ -121,6 +121,7 @@
 *******************************************************************************/
 body {
   font-family: 'Arimo', sans-serif;
+  font-family: 'Open-sans', sans-serif;
   height: 100%;
   line-height: 1.8;
   font-style:normal;
@@ -165,7 +166,7 @@ h5 {
 }
 h6 {
   font-size: 16px;
-  line-height: 28px;
+  line-height: 24px;
   font-weight: 500;
   text-transform:capitalize;
 }
@@ -239,6 +240,7 @@ ul.arrow-style li:before{
 }
 .product-page .description {
   color: #7f7f7f;
+  color: #6f6e6e;
   margin-bottom:20px;
 }
 
@@ -6065,12 +6067,12 @@ ul.tags li{
 .bg-hover-gray:hover{
 	background-color:rgba(0,0,0,.6);
 }
-/**
-Parallax Slide**/
+/*Parallax Slide**/
 .slide-01 {
     background-image: url("../img/resin8/grey-floor.jpg");
     background-image: url('../img/resin8/grey-floor.jpg');
 }
+
 
 
 

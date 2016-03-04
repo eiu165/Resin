@@ -308,6 +308,8 @@
     <Content Include="rs-plugin\font\revicons.eot" />
     <Content Include="rs-plugin\font\revicons.ttf" />
     <Content Include="rs-plugin\font\revicons.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
