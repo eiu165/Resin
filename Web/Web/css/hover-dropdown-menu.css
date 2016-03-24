@@ -212,6 +212,9 @@ li.mega-menu{
 .top-bar-section.top-bar-bg-color a{
 	color: #fff;
 }
+.footer-section.footer-bg-color a{
+	color: #fff;
+}
 /* Top Bar Light */
 .top-bar-section.top-bar-bg-light{
 	background-color: #fff;

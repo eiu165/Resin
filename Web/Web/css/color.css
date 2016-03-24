@@ -97,25 +97,13 @@ h2.count-number:before,
 div.count-number:before,
 .static-color-icons span,
 .fill-icon:after,
-.bakery-menu .nav-tabs > li.active > a, 
-.bakery-menu .nav-tabs > li.active > a:focus, 
-.bakery-menu .nav-tabs > li.active > a:hover,
-.travel-tab .input-group-addon,
-.travel-tab .nav-tabs > .active > a,
-.travel-tab .nav-tabs > .active > a:hover,
-.travel-tab .nav-tabs > .active > a:focus,
-.bootstrap-datetimepicker-widget table td.active, 
-.bootstrap-datetimepicker-widget table td.active:hover,
-.travel-tab .nav-tabs > li a > i ,
-.hotel-tab .nav-tabs > li.active > a, 
-.hotel-tab .nav-tabs > li.active > a:focus, 
-.hotel-tab .nav-tabs > li.active > a:hover,
 .navbar-default .navbar-toggle .icon-bar,
 .circle.count-number.border-color:before,
 .btn-transparent-color:hover,
 .btn-transparent-color-inverse,
 .image-bg .overlay-color,
-.overlay-color
+.overlay-color,
+.footer-bg-color
 {
     background-color: #e4a03a; /*tan*/
       background-color: #CCCB31; /* green*/
