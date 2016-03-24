@@ -45,13 +45,15 @@ header .nav .open > a.highlighted,
 .btn-transparent-color,
 .btn-transparent-color-inverse:hover
 { 
-    color: #e4a034; /* tanorange*/
-     color: #e4a03a; /*tan*/
-      color: #CCCB31; /* green*/
-       color: #DC6140; /* red*/
-        color: #A48661; /* brown*/
-        color: #7371b1; /* purple*/ 
-       color: #748CAF; /* blue*/
+     color: #D5CA2D; /* green*/
+        color: #915E52; /* brown*/
+        color: #7371b1; /* purple*/
+        color: #C2BBB2; /* grey*/ 
+        color: #748CAF; /* blue*/
+       
+        
+          color: #e4a034; /* tanorange*/
+          color: #FACC2A; /*tan */color: #B22C35; /* red*/
 }
 
 
