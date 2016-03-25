@@ -248,6 +248,7 @@ ul.arrow-style li:before{
 a {
   color: #171717;
 }
+
 a:visited {
   color: #171717;
   text-decoration:none;
@@ -268,6 +269,12 @@ a:hover,
 a:visited,
 a:focus{
 	outline: 0 none;
+}
+#products a {
+    color: #fff;
+}
+#products a:hover{
+    color: #000;
 }
 .container {
     max-width: 1200px;

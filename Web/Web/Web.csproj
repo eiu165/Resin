@@ -220,6 +220,11 @@
     <Content Include="img\resin8\res-coat-17.png" />
     <Content Include="img\resin8\resin8-brochure.jpg" />
     <Content Include="img\resin8\resin8-favicon.png" />
+    <Content Include="img\resin8\resin8-logoBrown.png" />
+    <Content Include="img\resin8\resin8-logoGreen.png" />
+    <Content Include="img\resin8\resin8-logoGrey.png" />
+    <Content Include="img\resin8\resin8-logoRed.png" />
+    <Content Include="img\resin8\resin8-logoTan.png" />
     <Content Include="img\resin8\resin8slide-01.png" />
     <Content Include="img\resin8\resinRed.png" />
     <Content Include="img\resin8\roof.jpg" />

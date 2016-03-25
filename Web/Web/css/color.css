@@ -104,14 +104,35 @@ div.count-number:before,
 .image-bg .overlay-color,
 .overlay-color,
 .footer-bg-color
-{
+{   background-color: #c2bbb2; /*grey*/
     background-color: #e4a03a; /*tan*/
       background-color: #CCCB31; /* green*/
-       background-color: #DC6140; /* red*/
-        background-color: #A48661; /* brown*/
+       background-color: #B22C35; /* red*/
+        background-color: #915E52; /* brown*/
         background-color: #7371b1; /* purple*/ 
        background-color: #748CAF; /* blue*/
+       
 }
+/* ============ product background colors*/
+.bg-tan {
+background-color: #e4a03a; /*tan*/
+}
+.bg-green {
+ background-color: #CCCB31; /* green*/
+}
+.bg-red {
+background-color: #b22c35; /* red*/
+}
+.bg-brown{
+background-color: #915E52; /* brown*/
+}
+.bg-blue{
+background-color: #748CAF; /* blue*/
+}
+.bg-grey{
+ background-color: #c2bbb2; /*grey*/
+}
+
 
 /* ============================
 
