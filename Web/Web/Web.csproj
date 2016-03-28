@@ -327,6 +327,8 @@
     <Content Include="img\pdf\TDSRes-Grout-HCR5000-Mar16.pdf" />
     <Content Include="img\pdf\TDSResTank1005Mar16.pdf" />
     <Content Include="img\pdf\Resin8SDSRes-FloorTL302000Mar16.pdf" />
+    <Content Include="img\pdf\Resin8-SDS-ResRoof3001Mar16.pdf" />
+    <Content Include="img\pdf\Resin8SDSRes-FloorSL2002Mar16.pdf" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
