@@ -215,8 +215,11 @@
     <Content Include="img\resin8\crack.jpg" />
     <Content Include="img\resin8\grey_floor.jpg" />
     <Content Include="img\resin8\hex6.png" />
+    <Content Include="img\resin8\ibeam.jpg" />
     <Content Include="img\resin8\manhole.jpg" />
+    <Content Include="img\resin8\meatPlant.jpg" />
     <Content Include="img\resin8\outdoor.jpg" />
+    <Content Include="img\resin8\pharmPlant.jpg" />
     <Content Include="img\resin8\pipe.jpg" />
     <Content Include="img\resin8\plant-01.jpg" />
     <Content Include="img\resin8\res-coat-17.png" />

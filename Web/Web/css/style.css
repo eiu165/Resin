@@ -2625,7 +2625,7 @@ p.tp-caption.button-block a{
 }
 .portfolio-grid .grid {
 	position:relative;
-	background-color:#000000;
+/*	background-color:#000000;*/
 }
 .img-overlay{
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
