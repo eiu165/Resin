@@ -3140,6 +3140,21 @@ div.count-number:before{
   top: 0;
   width: 100%;
 }
+.form-container{
+  position: relative;
+  /*padding-bottom: 56.25%;*/
+  padding-top: 0px;
+  height: 0;
+  overflow: visible;
+}
+.form-container iframe{
+   position: absolute; 
+   top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .width-320{
 	 width: 320px;
 }
@@ -5064,6 +5079,7 @@ ul.tags li{
     right: 0;
 	overflow-y: auto;
 }
+.footer>
 /******************************************************************************
   Dark Section
 *******************************************************************************/
