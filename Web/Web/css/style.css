@@ -168,7 +168,7 @@ h6 {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  text-transform:capitalize;
+  /*text-transform:capitalize;*/
 }
 .head-no-margin h6{
 	margin-bottom:14px;
@@ -201,6 +201,9 @@ hr.white{
 }
 .bg-black{
 	background:#000;
+}
+.bold {
+    font-weight: 700;
 }
 /* List Style */
 ol li{
@@ -2206,7 +2209,8 @@ p.tp-caption.button-block a{
     width: 10px;
 }
 .dark-switch .owl-controls .owl-page span{
-	background:rgba(0, 0, 0, 1);
+	background:rgba(221, 221, 221, 0.31);
+    background:rgba(178, 44, 53, 0.70);
 }
 .light-switch .owl-controls .owl-page span{
 	background:rgba(255, 255, 255, 1);
@@ -2532,9 +2536,10 @@ p.tp-caption.button-block a{
 	text-align:right;
 	position:absolute;
 	height:12px;
+    background-color: #b22c35;
 }
 .progress{
-	background-color:#333333;
+	background-color:#c2bbb2; /*grey*/
 	margin-bottom:10px;
 }
 

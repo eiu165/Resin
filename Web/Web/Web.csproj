@@ -212,6 +212,8 @@
     <Content Include="img\prettyPhoto\light_square\loader.gif" />
     <Content Include="img\prettyPhoto\light_square\sprite.png" />
     <Content Include="img\resin8\autoCaulk.jpg" />
+    <Content Include="img\resin8\carTile.jpg" />
+    <Content Include="img\resin8\caulkTile.jpg" />
     <Content Include="img\resin8\cleanPlant.jpg" />
     <Content Include="img\resin8\crack.jpg" />
     <Content Include="img\resin8\grey_floor.jpg" />
@@ -222,6 +224,7 @@
     <Content Include="img\resin8\outdoor.jpg" />
     <Content Include="img\resin8\pharmPlant.jpg" />
     <Content Include="img\resin8\pipe.jpg" />
+    <Content Include="img\resin8\pipeLiner.jpg" />
     <Content Include="img\resin8\plant-01.jpg" />
     <Content Include="img\resin8\res-coat-17.png" />
     <Content Include="img\resin8\resin8-brochure.jpg" />
@@ -241,6 +244,7 @@
     <Content Include="img\resin8\slide1.png" />
     <Content Include="img\resin8\tankLiner.jpg" />
     <Content Include="img\resin8\tankliner.png" />
+    <Content Include="img\resin8\tileFloor.jpg" />
     <Content Include="img\resin8\wtroof.jpg" />
     <Content Include="img\sections\bg\grey-floor.jpg" />
     <Content Include="img\resin8\resin8-logo.png" />
