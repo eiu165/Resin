@@ -228,6 +228,7 @@
     <Content Include="img\resin8\plant-01.jpg" />
     <Content Include="img\resin8\res-coat-17.png" />
     <Content Include="img\resin8\resin8-brochure.jpg" />
+    <Content Include="img\resin8\resin8-favicon-01.png" />
     <Content Include="img\resin8\resin8-favicon.png" />
     <Content Include="img\resin8\resin8-logoBlue.png" />
     <Content Include="img\resin8\resin8-logoBrown.png" />
@@ -338,6 +339,7 @@
     <Content Include="img\pdf\Resin8SDSResFloor-SL2002Mar16.pdf" />
     <Content Include="img\pdf\TDSResGrout-HCR5000-Mar16.pdf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="img\pdf\TDSResGrout-WW5002-Apr16.pdf" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
