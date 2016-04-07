@@ -44,6 +44,7 @@ header .nav .open > a.highlighted,
 .btn-transparent-white-inverse,
 .btn-transparent-color,
 .btn-transparent-color-inverse:hover
+
 { 
      color: #D5CA2D; /* green*/
         color: #915E52; /* brown*/
@@ -57,7 +58,9 @@ header .nav .open > a.highlighted,
           color: #B22C35; /* red*/
 }
 
-
+.text-blue{
+    color: #748CAF; /* blue*/
+}
 
 
 
