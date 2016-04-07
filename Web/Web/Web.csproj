@@ -336,11 +336,11 @@
     <Content Include="img\pdf\Resin8-SDS-ResRoof3001Mar16.pdf" />
     <Content Include="img\pdf\TDSResFloor-SL2002-Mar16.pdf" />
     <Content Include="img\pdf\Resin8SDSResFloor-TL302000Mar16.pdf" />
-    <Content Include="img\pdf\Resin8SDSResFloor-SL2002Mar16.pdf" />
     <Content Include="img\pdf\TDSResGrout-HCR5000-Mar16.pdf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="img\pdf\TDSResGrout-WW5002-Apr16.pdf" />
     <Content Include="img\pdf\Resin8TDSRes-Floor-TL302000-Mar16.pdf" />
+    <Content Include="img\pdf\Resin8SDSResFloor-SL302002Mar16.pdf" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
