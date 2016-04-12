@@ -63,6 +63,9 @@ header .nav .open > a.highlighted,
 .text-green{
     color: #D5CA2D; /* green*/
 }
+.text-red{
+    color: #B22C35; /* red*/
+}
 
 
 /* ============================
