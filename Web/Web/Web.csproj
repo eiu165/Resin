@@ -318,6 +318,7 @@
     <Content Include="img\pdf\Resin8TDSRes-Floor-TL302000-Mar16.pdf" />
     <Content Include="img\pdf\Resin8SDSResFloor-SL302002Mar16.pdf" />
     <Content Include="img\pdf\resin8-brochure-03.pdf" />
+    <Content Include="img\pdf\Resin8TDSResCoat1000Apr16.pdf" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
