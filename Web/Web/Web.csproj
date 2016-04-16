@@ -316,6 +316,8 @@
     <Content Include="img\pdf\Resin8SDSResFloor-TL2000Apr16.pdf" />
     <Content Include="img\pdf\Resin8TDSResFloor-SL2002-Apr16.pdf" />
     <Content Include="img\pdf\Resin8-SDS-ResHydroPrime3002Apr16.pdf" />
+    <Content Include="img\pdf\Resin8TDSResGrout-HCR5001-Apr16.pdf" />
+    <Content Include="img\pdf\Resin8TDSResGrout-WW5002-Apr16.pdf" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
