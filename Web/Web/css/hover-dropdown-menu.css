@@ -161,11 +161,18 @@ li.mega-menu{
 }
 /* Set Navbar Background-color dark */
 .navbar.navbar-bg-dark{
-	background-color: #222;
+	background-color: #1f6490;
 }
 .navbar.navbar-bg-dark .navbar-nav > li > a{
 	color: #fff;
 }
+.navbar.navbar-bg-dark .navbar-nav > li > a:hover,
+.navbar.navbar-bg-dark .navbar-nav > li > a:visited,
+.navbar.navbar-bg-dark .navbar-nav > li > a:active
+{
+	color:#b4aea7 /* grey*/
+}
+
 /* Set Navbar Background-transparent */
 .navbar-transparent{
 	background-color: transparent
@@ -190,19 +197,19 @@ li.mega-menu{
 	z-index: 9999;
 }
 .top-bar-section{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 7px;
+	padding-bottom: 1px;
 }
 .top-contact{
-	float: left;
+	float: right;
 	text-align: center;
 }
 .top-social-icon{
 	text-align: center;
 }
 .top-contact a i{
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .transparent-header.dark-header .top-search-open{
 	background-color:#222222 !important;
@@ -476,7 +483,7 @@ li.search-dropdown a {
 	position: relative;
 }
 .navbar-nav > li > a{
-	line-height: 40px;
+	/*line-height: 40px;*/
 }
 /* Logo Styles */
 .navbar-brand{
@@ -490,7 +497,9 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-	width: 100px;
+    padding-left:3px;
+    padding-top:3px;
+	width: 90px;
 }
 /* Shop Header */
 .shop-header-block{
@@ -780,14 +789,7 @@ header .is-sticky  .sticky-dark-to-light  .navbar-form input {
 	float: none;
 	display: inline-block;
 }
-/* Header Breadcrumbs */
-.top-bar-section .breadcrumb {
-    display: inline;
-    background: transparent;
-}
-.top-bar-section .breadcrumb > li + li::before{
-	color: #222;
-}
+
 /* Top Logo Left Header */
 .top-logo-left .navbar-brand > img{
 	width: 155px;
@@ -1031,10 +1033,11 @@ header .navbar-collapse{
 		float: left;
 		width: 100%;
 		text-align: center;
+        padding-top: 26px;
 	}
 	.navbar-toggle{
 		float: right;
-		margin-top: 20px;
+		/*margin-top: 20px;*/
 		margin-right: 9px;
 		background: transparent;
 		border: 0;

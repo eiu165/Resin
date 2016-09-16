@@ -8,7 +8,6 @@
 .navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
 .navbar.navbar-bg-light .navbar-nav > li > a.highlighted,
 .page-links div a:hover, .page-links div a:active, .page-links div a:focus,
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a.active,
 .text-color,
 .item-box a:hover i,
 .inverse i,
@@ -23,15 +22,7 @@
 #video-controls a,
 .link-hover-color a:hover,
 .icons-hover-color i:hover,
-.navbar-default .navbar-nav > li.active > a, 
-.navbar-default .navbar-nav > li.active > a:focus, 
-.navbar-default .navbar-nav > li.active > a:hover,
-#page .breadcrumb > .active,
-.timeliner li:hover .timeline-heading h4.subheading,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .sitemap li a:hover,
-.side-navbar .top-contact.link-hover-black > a:hover,
-.side-navbar .top-social-icon > a:hover i,
 header .nav .open > a.highlighted,
 .btn-transparent-black:hover,
 .btn-transparent-white:hover,
@@ -39,24 +30,28 @@ header .nav .open > a.highlighted,
 .btn-transparent-white-inverse,
 .btn-transparent-color,
 .btn-transparent-color-inverse:hover
-
 { 
      color: #D5CA2D; /* green*/
         color: #915E52; /* brown*/
         color: #7371b1; /* purple*/
         color: #C2BBB2; /* grey*/ 
-        color: #748CAF; /* blue*/
-       
-        
+        color: #748CAF; /* blue*/        
           color: #e4a034; /* tanorange*/
           color: #FACC2A; /*tan */
           color: #B22C35; /* red*/
 }
-
 .text-blue{
     color: #748CAF; /* blue*/
 }
-.text-grey{
+.text-grey,
+.navbar-default .navbar-nav > li.active > a, 
+.navbar-default .navbar-nav > li.active > a:focus, 
+.navbar-default .navbar-nav > li.active > a:hover,
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a.active,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+{
      color: #C2BBB2; /* grey*/
      color:#b4aea7 /* grey*/
 }
@@ -67,18 +62,15 @@ header .nav .open > a.highlighted,
 .text-red{
     color: #B22C35; /* red*/
 }
-
-
 /* ============================
 
 
 	       BACKGROUND COLOR 
 
 =============================== */
-.top-bar-section.top-bar-bg-color,
+
 .product-count,
 .nav > li > a:focus, .nav > li > a:hover,
-.top-bar-section.top-bar-bg-color,
 .btn-default,
 .section-title h1:before,
 .section-title h2:before,
@@ -116,6 +108,11 @@ div.count-number:before,
         background-color: #7371b1; /* purple*/ 
        background-color: #748CAF; /* blue*/
        
+}
+
+.top-bar-section.top-bar-bg-color{
+    background-color: #66A0D6; /* blue*/
+    background-color: #1f6490; /* blue*/
 }
 /* ============ product background colors*/
 .bg-tan {
@@ -191,6 +188,7 @@ background-color: #748CAF; /* blue*/
 
 	.navbar-bg-color{
 		background-color: #748CAF; /* blue*/
+        background-color: #1f6490; /* blue*/
 	}
 
 }
