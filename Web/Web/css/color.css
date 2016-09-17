@@ -4,8 +4,7 @@
 
 =============================== */
 .btn-link,.btn-link:hover,
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
-.navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
+.navbar-default.navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
 .navbar.navbar-bg-light .navbar-nav > li > a.highlighted,
 .page-links div a:hover, .page-links div a:active, .page-links div a:focus,
 .text-color,
@@ -43,7 +42,8 @@ header .nav .open > a.highlighted,
 .text-blue{
     color: #748CAF; /* blue*/
 }
-.text-grey,
+.text-grey, 
+.navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > li.active > a, 
 .navbar-default .navbar-nav > li.active > a:focus, 
 .navbar-default .navbar-nav > li.active > a:hover,

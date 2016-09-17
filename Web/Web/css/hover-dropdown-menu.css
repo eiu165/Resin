@@ -498,7 +498,7 @@ li.search-dropdown a {
 }
 .navbar-brand > img{
     padding-left:3px;
-    padding-top:3px;
+    padding-top:0px;
 	width: 90px;
 }
 /* Shop Header */
