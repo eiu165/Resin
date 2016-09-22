@@ -124,6 +124,7 @@ body {
   font-family: 'Open-sans', sans-serif;
   height: 100%;
   line-height: 1.5;
+  letter-spacing:1px;
   font-style:normal;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
@@ -150,9 +151,8 @@ h2 {
   font-size: 34px;
 }
 h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
-  text-transform:capitalize;
 }
 h4 {
   font-size: 24px;
@@ -195,6 +195,11 @@ hr.white{
   border-top: 1px solid rgba(255,255,255,1);
   border-bottom: 0 none;
 }
+hr.drop-shadow {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
 .highlight{
 	background:#FFC400;
 	padding:0 5px;
@@ -221,15 +226,17 @@ ul.list-style li{
 	padding-top:5px;
 	padding-bottom:5px;
 }
-.arrow-style {
-    margin: 0 0 22px;
-    padding: 0 0 0 60px;
+ .plus-style {
+    list-style-image: url('../img/resin8/plus.png');
 }
-
+.arrow-style {
+    margin: 0 0 12px;
+    padding: 0 0 0 10px;
+}
 .arrow-style li{
 	list-style: outside none none;
     padding-bottom: 2px;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 2px;
     position: relative;
 }
@@ -240,6 +247,11 @@ ul.arrow-style li:before{
   left: 0;
   position: absolute;
   top: 5px;
+}
+ul.drop-shadow {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 .product-page .description {
   color: #7f7f7f;
@@ -299,13 +311,13 @@ a:focus{
 }
 .section-title {
   border-bottom-width: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   position: relative;
 }
 .section-title h1{
 	text-transform:uppercase;
 	text-align:center;
-	font-size: 36px;	
+	font-size: 32px;	
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
@@ -314,7 +326,7 @@ a:focus{
 .section-title h2{
 	text-transform:uppercase;
 	text-align:center;
-	font-size: 32px;	
+	font-size: 26px;	
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
@@ -335,9 +347,7 @@ a:focus{
   position: absolute;
   width: 40px;
 }
-.section-title h2{
-	font-size:28px;
-}
+
 .section-title.text-left h2{
 	text-align:left;
 }
@@ -625,7 +635,7 @@ i.i-10x{
 	height:100px;
 	text-align:center;
 	line-height:100px;		
-	font-size:30px;
+	font-size:100px;
 	margin-bottom:15px;
 }
 i.pull-left{
@@ -633,7 +643,7 @@ i.pull-left{
 }
 i.pull-left{
 	margin-right: 0.3em;
-	margin-top:.0.2em;
+	margin-top: 0.2em;
 }
 .icon-2 span{
 	width:20px;
@@ -2487,12 +2497,15 @@ p.tp-caption.button-block a{
 /* Additional Features */
 .responsive-features span {
     font-size: 24px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .responsive-features h5 {
     display: inline-block;
     margin: 0 0 15px;
     text-transform: capitalize;
+}
+.border-right {
+    border-right:1px solid #ccc;
 }
 
 /* Progress */
@@ -5485,7 +5498,14 @@ ul.tags li{
 
 /* Item Box */
 .boxed-block{
-	border: 1px solid #cccccc;
+	border: 1px solid #48539e;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 10px 0px #ABABAB;
+}
+.shadow{
+box-shadow: inset 0px 0px 10px 0px #ABABAB;
+-webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB;
+-moz-box-shadow: inset 0px 0px 10px 0px #ABABAB;
 }
 .inline-block{
 	display:inline-block;
