@@ -334,6 +334,7 @@
     <Content Include="img\pdf\Resin8TDSResPrime-RS3001May16.pdf" />
     <Content Include="img\pdf\Resin8TDSResFloor-SL.FS2002.pdf" />
     <Content Include="img\pdf\Resin8TDSResFloor-TL.FS2000.pdf" />
+    <Content Include="img\pdf\ResFloorMarketingDocs090816.pdf" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
