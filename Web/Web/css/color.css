@@ -176,6 +176,10 @@ background-color: #748CAF; /* blue*/
 .top-up .nav-tabs > li.active > a:hover:after{
     border-color: #748CAF transparent transparent;
 }
+/*****BLUE COLOR******/
+.blue{
+color: #1f6490; /* blue*/
+ }
 
 /******************************************************************************
   Max Width "767px"
