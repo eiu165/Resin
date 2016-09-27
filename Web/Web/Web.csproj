@@ -187,6 +187,7 @@
     <Content Include="img\resin8\bedding-grout.jpg" />
     <Content Include="img\resin8\carFloor.jpg" />
     <Content Include="img\resin8\carTile.jpg" />
+    <Content Include="img\resin8\caulkTile-01.jpg" />
     <Content Include="img\resin8\caulkTile.jpg" />
     <Content Include="img\resin8\cleanPlant.jpg" />
     <Content Include="img\resin8\coating-sealer.jpg" />
