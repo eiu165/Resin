@@ -201,8 +201,7 @@ li.mega-menu{
 	padding-bottom: 1px;
 }
 .top-contact{
-	float: right;
-	text-align: center;
+    display: inline-block;
 }
 .top-social-icon{
 	text-align: center;
@@ -497,8 +496,9 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-    padding-left:3px;
-    padding-top:0px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
 	width: 90px;
 }
 /* Shop Header */
@@ -556,8 +556,8 @@ li.search-dropdown a {
     width: 14px;
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
-	    -ms-border-radius: 50%;
-	     -o-border-radius: 50%;
+	  /*  -ms-border-radius: 50%;
+	     -o-border-radius: 50%;*/
 	        border-radius: 50%;
 }
 /* Shop Header Top Bar */
@@ -565,7 +565,8 @@ li.search-dropdown a {
 	float: left;
 }
 .top-bar-section a{
-	padding-left:5px;
+	padding-left:10px;
+    padding-right: 10px;
 }
 .top-bar-section.shop-top-bar{
 	padding-bottom : 0px;
@@ -821,7 +822,7 @@ header .is-sticky  .sticky-dark-to-light  .navbar-form input {
 	width: 100%;
 }
 .top-bar-section.top-logo-center .top-social-icon a, .top-bar-section.top-logo-center .top-contact a{
-	line-height: 70px;
+	line-height: 50px;
 }
 .top-logo-center-header .navbar-nav{
 	float: left;
@@ -848,7 +849,7 @@ header .navbar-collapse{
 /* Top Logo Center , Left Logo Align Top Bar */
 .top-bar-section.top-logo-center .top-social-icon a, .top-bar-section.top-logo-center .top-contact a,
 .top-bar-section.top-logo-left .top-social-icon a, .top-bar-section.top-logo-left .top-contact a{
-	padding: 0 5px;
+	padding: 5px;
 }
 /* Header Logo Bottom Center */
 .logo-page-header .navbar-brand{
@@ -991,7 +992,7 @@ header .navbar-collapse{
 		float: none;
 	}
 	.navbar-brand{
-		float: none;
+		/*float: none;*/
 	}
 	.navbar-brand > img{
 		margin: 0 auto;
@@ -1443,13 +1444,15 @@ header .navbar-collapse{
 	/*----------------------
 	Top Bar 
 	---------------------*/
+    
 	.top-contact,.top-contact.top-contact-right,
 	.top-social-icon, .top-social-icon.top-social-icon-left
 	{
-		float: none;
+		float: right;
+        display:inline-block;
 		width: 100%;
-		padding-top: 0px;
-		padding-bottom: 6px;
+		padding-top: 10px;
+		padding-bottom: 0px;
 	}
 	.top-social-icon.icons-hover-black{
 		display: none;
@@ -1460,7 +1463,10 @@ header .navbar-collapse{
 	#top-bar.top-logo-left .top-social-icon.icons-hover-black a i{
 		display: none;
 	}
-}
+}.top-contact a{
+        font-size:14px;
+       
+    }
 /* ------------------------
 	MAX 360px 
 ------------------------ */
@@ -1469,11 +1475,11 @@ header .navbar-collapse{
 	/*----------------------
 	Top Bar (Contact)
 	---------------------*/
-	.top-contact a{
-		display: block;
-	}
-	.top-contact .breadcrumb a{
-		display: inline;
+	.top-contact .top-contact-right{
+		float:right;
+     }   
+        .top-contact a{
+		display: inline-block;
 	}
 	.transparent-header.top-bar .top-contact a{
 		display: inline-block;
