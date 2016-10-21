@@ -77,6 +77,7 @@ border-style:none;
 
 .tp-caption.finewide_medium_white {
 color:#ffffff;
+color:#000000;
 text-shadow:none;
 font-size:37px;
 line-height:37px;
@@ -187,6 +188,7 @@ border-style: none;
 
 .tp-caption.finewide_medium_white {
 color: #FFF;
+color:#000;
 text-shadow: none;
 font-size: 34px;
 line-height: 34px;

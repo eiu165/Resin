@@ -202,6 +202,7 @@
     <Content Include="img\resin8\exjoint.jpg" />
     <Content Include="img\resin8\grey_floor.jpg" />
     <Content Include="img\resin8\hex6.png" />
+    <Content Include="img\resin8\hexfloor.jpg" />
     <Content Include="img\resin8\ibeam.jpg" />
     <Content Include="img\resin8\linePipe.jpg" />
     <Content Include="img\resin8\manhole.jpg" />
