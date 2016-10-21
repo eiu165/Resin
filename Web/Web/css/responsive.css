@@ -226,6 +226,9 @@
 .single-product{
 	margin-bottom:40px;
 }
+.navbar-header{
+    float:left;
+}
 }  
 /******************************************************************************
   Min Width "992px"
