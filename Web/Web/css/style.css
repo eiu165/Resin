@@ -115,6 +115,8 @@
 	- Item Box
 	- Carousel Custom height 
     - Parallax Slide
+8. Tosca edits
+    - Epoxy Products shop
 	
 /******************************************************************************
   Global Style 
@@ -5411,7 +5413,16 @@ box-shadow: inset 0px 0px 10px 0px #ABABAB;
     background-image: url("../img/resin8/grey-floor.jpg");
     background-image: url('../img/resin8/grey-floor.jpg');
 }
+/*******Epoxy products shop ******/
+.shop .product-details h4{
+    font-weight: 700;
+}
 
+
+.shop .desc-head h5{
+    font-weight: 700;
+
+}
 
 
 
