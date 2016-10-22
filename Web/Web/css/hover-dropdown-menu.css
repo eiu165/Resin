@@ -482,7 +482,7 @@ li.search-dropdown a {
 	position: relative;
 }
 .navbar-nav > li > a{
-	/*line-height: 40px;*/
+	line-height: 40px;
 }
 /* Logo Styles */
 .navbar-brand{
@@ -1032,7 +1032,7 @@ header .navbar-collapse{
 		float: left;
 		width: 100%;
 		text-align: center;
-        padding-top: 30px;
+        padding-top: 0px;
 	}
 	.navbar-toggle{
 		float: right;
@@ -1138,13 +1138,17 @@ header .navbar-collapse{
 		display: none !important;
 	}
 	/* Header Mobile View Styles */
-	.navbar-brand{
+	.navbar-header{
+        height: 60px;
+	}
+    
+    .navbar-brand{
 		float: left;
 	}
 	.navbar-nav{
 		float: left;
 		width: 100%;
-		text-align: left
+		text-align: left;       
 	}
 	.navbar-nav > li {
 		display: block;
