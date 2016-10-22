@@ -989,10 +989,11 @@ header .navbar-collapse{
 		float: none;
 	}
 	.navbar-brand{
-		/*float: none;*/
+		float: none;
 	}
 	.navbar-brand > img{
 		margin: 0 auto;
+        width: 110px;
 	}
 	.navbar-right{
 		float: none !important;
